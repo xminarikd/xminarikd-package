@@ -1,8 +1,12 @@
 {
   "name": "xminarikd-package",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Encrypt/decrypt text",
+  "main": "crypt.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xminarikd/xminarikd-package.git"
+  },
   "directories": {
     "test": "test"
   },
@@ -10,7 +14,9 @@
     "test": "mocha --color test/crypt-test.js",
     "build": "node ./src/crypt.js -e --key=\"Hello World\" "
   },
-  "author": "",
+  "author": {
+    "name": "Daniel Minarik"
+  },
   "license": "ISC",
   "devDependencies": {
     "mocha": "^6.2.2"

@@ -1,0 +1,22 @@
+{
+  "name": "xminarikd-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --color test/crypt-test.js",
+    "build": "node ./src/crypt.js -e --key=\"Hello World\" "
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^6.2.2"
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "yargs": "^14.2.0"
+  }
+}
